@@ -14,6 +14,6 @@ node {
 stage "use shared library"
 node {
     script {
-        fooLog 'pipeline test!'
+        foo.emitLog 'pipeline test!'
     }
 }
