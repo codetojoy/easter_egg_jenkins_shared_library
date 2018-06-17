@@ -1,4 +1,5 @@
 
+// this does not work
 // static def MY_GLOBAL_VAR2 = "bach"
 
 class Constants {
@@ -12,6 +13,5 @@ def emitLog(message) {
 
     println "TRACER test : " + net.codetojoy.shared.Bar.G1
     println "TRACER t1 : " + Constants.MY_GLOBAL_VAR1
-    // println "TRACER t2 : " + MY_GLOBAL_VAR2
     println "TRACER t3 : " + Keys.MY_GLOBAL_VAR3
 }
