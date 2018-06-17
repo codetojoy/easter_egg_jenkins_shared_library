@@ -11,7 +11,7 @@ def emitLog(message) {
     bar.emitLog()
 
     println "TRACER test : " + net.codetojoy.shared.Bar.G1
-    println "TRACER t1 : " + Constants.MY_GLOBAL_VAR
+    println "TRACER t1 : " + Constants.MY_GLOBAL_VAR1
     println "TRACER t2 : " + MY_GLOBAL_VAR2
     println "TRACER t3 : " + Keys.MY_GLOBAL_VAR3
 }
